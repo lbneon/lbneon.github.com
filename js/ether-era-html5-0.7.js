@@ -299,7 +299,7 @@ EtherEra.JS.ZombieTownEscape.World.prototype.tracerLoad = function() {
     this.tracers.push("紫色圆圈代表僵尸的啦~，蓝色圆圈代表玩家~");
     this.tracers.push("蓝色圆圈会跟着鼠标移动，游戏目的是躲避紫色圆圈~");
     this.tracers.push("纪元3015年，以太大爆炸后，高辐射使得这个镇上越来越多的人被感染成僵尸~");
-    this.tracers.push("游戏作者：NeonLB(LiB)，EMail:neonlight@live.cn~");
+    this.tracers.push("游戏作者：LBNeon(LiB)，EMail:lbneon@gmail.com~");
     this.tracers.push("有一大波人僵尸正在向你靠近~");
     this.tracers.push("我是一颗菠萝，萝萝萝萝萝萝~");
 };
