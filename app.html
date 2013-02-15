@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html xmlns:wb="http://open.weibo.com/wb">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>WeiBo and Map</title>
+    <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js?appkey=3305515404" type="text/javascript" charset="utf-8"></script>
+</head>
+
+<body>
+<script>
+WB2.anyWhere(function(W){
+    //数据交互
+    W.parseCMD('/users/show.json', function(oResult, bStatus) {
+        if(bStatus) {
+            //to do something...
+        }
+    }, {
+        screen_name : '姚晨'
+    }, {
+        method : 'get',
+        cache_time : 30
+    });
+});
+</script>
+<wb:share-button type="button" size="middle"> </wb:share-button>
+</body>
+
+</html>
