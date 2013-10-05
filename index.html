@@ -1,57 +1,198 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>LBNeon(Li,B) Home Pages</title>
-<script type="text/javascript" src="js/jquery-1.7.1.js"></script>
-<script type="text/javascript" src="js/ether-era-html5-0.7.js"></script>
-<script type="text/javascript" src="js/matrixweb-0.0.1.js"></script>
-<style type="text/css">
-#boxtable {
-	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
-	width:1024px;
-	margin:auto;
-	border-collapse:collapse;
-}
-#boxtable td, #boxtable th {
-	font-size:0em;
-	border:1px solid #98bf21;
-	padding:0px 0px 0px 0px;
-}
-#boxtable td {
-	width:64px;
-	height:64px;
-	background-color:#FFF;
-}
-#boxtable th {
-	font-size:1.1em;
-	text-align:left;
-	padding-top:5px;
-	padding-bottom:4px;
-	background-color:#A7C942;
-	color:#000000;
-}
-#boxtable tr.alt td {
-	color:#000000;
-	background-color:#EAF2D3;
-}
-#boxtable td.alt {
-	color:#000000;
-	background-color:#EAF2D3;
-}
-#boxtable tr.title td {
-	color:#000000;
-	height:256px;
-}
-body {
-	background-color:#F5FFF5;
-}
-</style>
-</head>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Neon World</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Here are our introduction memories and future. We have the world.">
+    <meta name="author" content="B&C">
+    <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <style>
+      body {
+        /*padding-top: 60px;*/ /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+    </style>
+  </head>
 
-<body>
+  <body>
+    <header>
+      <nav class="navp navbar navbar-default navbar-fixed-top">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Our Family</a>
+        </div>
 
+        <div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a target="_blank" href="http://aneon.tk">Blog</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                GitHub<b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a target="_blank" href="https://github.com/lbneon">GitHub Home</a></li>
+                <li><a target="_blank" href="zombie.html">Zombie & Index</a></li>
+                <li><a target="_blank" href="http://www.aneon.tk/EE_SnakeStrategy/">EE_SnakeStrategy</a></li>
+                <li><a target="_blank" href="magicbox.html">Magic Box</a></li>
+                <li><a target="_blank" href="https://github.com/lbneon/D3L/wiki">D3L C++ Library</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                Chinese Blogs<b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a target="_blank" href="https://github.com/lbneon">Chinese Blogs</a></li>
+                <li><a target="_blank" href="http://blog.csdn.net/neonlight">CSDN Blog</a></li>
+                <li><a target="_blank" href="http://www.cnblogs.com/neonlight/">Cnblog Blog</a></li>
+                <li><a target="_blank" href="http://blog.sina.com.cn/neonlb">Sina Blog</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                Social<b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a target="_blank" href="https://twitter.com/lbneon">Twitter</a></li>
+                <li><a target="_blank" href="https://www.facebook.com/lbneon">B's Facebook</a></li>
+                <li><a target="_blank" href="https://www.facebook.com/lindacao0806">C's Facebook</a></li>
+                <li><a target="_blank" href="http://www.weibo.com/neonlb">Sina Weibo</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
+    <section id="intro">
+      <div class="container">
+        <div class="row" style="height:150px;"> </div>
+        <div class="row">
+          <div class="col-md-1"> </div>
+          <div class="col-md-2">
+            <img class="img-circle" src="assets/img/b.jpg"></img>
+          </div>
+          <div id="carousel_fade_intro" class="col-md-6 carousel slide carousel-fade">
+            <div class="row" style="height:50px;"> </div>
+            <div class="carousel-inner">
+              <div class="item">
+                <h2>I'm singing Oah.</h2>
+              </div>
+              <div class="inactive item">
+                <h2>Don't say maybe,</h2>
+              </div>
+              <div class="inactive item">
+                <h2>just be my lady.</h2>
+              </div>
+              <div class="inactive item active">
+                <h2>No need to hesitate,</h2>
+              </div>
+              <div class="inactive item">
+                <h2>'cause you'll be fine.</h2>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <img class="img-circle" src="assets/img/c.jpg"></img>
+          </div>
+          <div class="col-md-1"> </div>
+        </div>
+      </div>
+      <div class="fadeInUp delay animated hidden-phone" id="more">
+        <a href="#start-top" class="">
+          <i class="glyphicon glyphicon-hand-down"></i>
+          DOWN
+          <i class="glyphicon glyphicon-hand-down"></i>
+        </a>
+      </div>
+    </section>
+    <!--/instro section-->
 
-</body>
+    <section id="start-top">
+      <div class="container">
+        <div class="row" style="height: 20px;"></div>
+        <h3>Our footprints</h3>
+        <p>Follow the trace, remeber the trace, believe the trace.</p>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-item-date">2012 - now</div>
+              <div class="timeline-item-trigger">
+                <span class="glyphicon glyphicon-leaf" data-toggle="collapse" data-target="#education1">
+                  <i></i>
+                </span>
+              </div>
+            <div class="timeline-arrow">
+              <i></i>
+            </div>
+            <div class="timeline-item-content">
+              <h3 class="timeline-item-title" data-toggle="collapse">We are in New York City</h3>
+              <div class="collapse in">
+                <p><small class="muted">from 2012 to now</small></p>
+                <h4 class="media-heading primary-color">Coming soon.</h4>
+                <p>Aliquam erat volutpat.</p>
+              </div>
+            </div>
+          </div>
+          <!--/timeline-item-->
+          <div class="timeline-item">
+          <div class="timeline-item-date">2004 - 2011</div>
+          <div class="timeline-item-trigger">
+            <span class="glyphicon glyphicon-pushpin" data-toggle="collapse">
+              <i></i>
+            </span>
+          </div>
+          <div class="timeline-arrow">
+            <i></i>
+          </div>
+          <div class="timeline-item-content">
+            <h3 class="timeline-item-title" data-toggle="collapse">Coming soon.</h3>
+            <div class="collapse">
+              <p><small class="muted">from beginning to 2011</small></p>
+              <h4 class="media-heading primary-color">Coming soon.</h4>
+              <p>Aliquam erat volutpat.</p>
+            </div>
+          </div>
+        </div>
+        <!--/timeline-item-->
+        <span class="clear"></span>
+        </div>
+
+      </div>
+    </section>
+
+    <!--/thumb-box-->
+    <section id="thumbox">
+      <div class="container">
+      </div>
+    </section>
+    <!--/instro section-->
+
+    <footer>
+      <div class="navp">
+        <div class="row" style="height:30px;"> </div>
+        <div class="row">
+          <div class="col-md-1"></div>
+          <div class="col-md-2">
+            <address>
+              <strong>New York City</strong><br>
+              <abbr title="QQ Number">Q:</abbr> 25848672
+            </address>
+          </div>
+          <div class="col-md-2">
+            <address>
+              <strong>Mr. Li</strong><br>
+              <a href="mailto:#">lbneon@gmail.com</a>
+            </address>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="lib/jquery/jquery-2.0.3.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.js"></script>
+    <script src="assets/js/scripts.js"></script>
+  </body>
 </html>
