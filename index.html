@@ -20,10 +20,16 @@
     <header>
       <nav class="navp navbar navbar-default navbar-fixed-top">
         <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
           <a class="navbar-brand" href="#">Our Family</a>
         </div>
 
-        <div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Home</a></li>
             <li><a target="_blank" href="http://aneon.tk">Blog</a></li>
@@ -128,8 +134,8 @@
               <i></i>
             </div>
             <div class="timeline-item-content">
-              <h3 class="timeline-item-title" data-toggle="collapse">We are in New York City</h3>
-              <div class="collapse in">
+              <h3 class="timeline-item-title" data-toggle="collapse"  data-target="#education1">We are in New York City</h3>
+              <div class="collapse in" id="education1">
                 <p><small class="muted">from 2012 to now</small></p>
                 <h4 class="media-heading primary-color">Coming soon.</h4>
                 <p>Aliquam erat volutpat.</p>
@@ -140,7 +146,7 @@
           <div class="timeline-item">
           <div class="timeline-item-date">2004 - 2011</div>
           <div class="timeline-item-trigger">
-            <span class="glyphicon glyphicon-pushpin" data-toggle="collapse">
+            <span class="glyphicon glyphicon-pushpin" data-toggle="collapse" data-target="#education2">
               <i></i>
             </span>
           </div>
@@ -148,8 +154,8 @@
             <i></i>
           </div>
           <div class="timeline-item-content">
-            <h3 class="timeline-item-title" data-toggle="collapse">Coming soon.</h3>
-            <div class="collapse">
+            <h3 class="timeline-item-title" data-toggle="collapse"  data-target="#education2">Coming soon.</h3>
+            <div class="collapse" id="education2">
               <p><small class="muted">from beginning to 2011</small></p>
               <h4 class="media-heading primary-color">Coming soon.</h4>
               <p>Aliquam erat volutpat.</p>

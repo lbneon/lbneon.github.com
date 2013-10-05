@@ -5,6 +5,12 @@ $(function(){
 		if($(this).hasClass('glyphicon-leaf')){$(this).removeClass('glyphicon-leaf').addClass('glyphicon-pushpin');}
 		else{$(this).removeClass('glyphicon-pushpin').addClass('glyphicon-leaf');}
 	});
+
+	$('.timeline-item-title').click(function(){
+		$trigger = $(this).parent().parent().find('.timeline-item-trigger span');
+		if($trigger.hasClass('glyphicon-leaf')){$trigger.removeClass('glyphicon-leaf').addClass('glyphicon-pushpin');}
+		else{$trigger.removeClass('glyphicon-pushpin').addClass('glyphicon-leaf');}
+	});
 });
 
 //sliders autoplay
