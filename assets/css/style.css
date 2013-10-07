@@ -102,6 +102,8 @@
   padding-right: 20px;
   padding-left: 20px;
   height: 100%;
+  width:100%;
+  min-width: 1024px;
 }
 
 #intro h2 {
@@ -255,4 +257,43 @@
 
 .navp a:hover {
     color:#fff !important;
+}
+
+.intro-sp {
+    height:150px;
+}
+
+.intro-sp2 {
+    height:90px;
+}
+
+.intro-img {
+    width:235px;
+}
+
+.intro-car {
+    width:500px;
+}
+.intro-by {
+    text-align: center;
+    width: 980px;
+    margin: 0 auto;
+}
+
+.experience-container {
+    margin: 0 auto;
+    min-width: 1024px;
+    text-align: center;
+}
+.experience-sp {
+    height: 30 px;
+}
+.experience-body {
+    margin: 0 auto;
+    width: 900px;
+}
+
+footer .navp {
+    width:100%;
+    min-width: 1024px;
 }
