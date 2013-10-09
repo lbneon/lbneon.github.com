@@ -286,7 +286,7 @@
     text-align: center;
 }
 .experience-sp {
-    height: 30 px;
+    height: 30px;
 }
 .experience-body {
     margin: 0 auto;
@@ -296,4 +296,12 @@
 footer .navp {
     width:100%;
     min-width: 1024px;
+}
+
+footer .space {
+    height: 30px;
+}
+
+footer .body {
+    text-align: center;
 }
