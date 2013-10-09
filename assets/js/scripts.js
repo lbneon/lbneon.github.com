@@ -27,3 +27,11 @@ $(function(){
 		$('#intro').css({'height':($(window).height())+'px'});
 		});
 	});
+
+$(document).ready(function(){
+  $("#start").click(function(){
+      var pos = $("#start-top").offset().top - 50;
+      $("html,body").animate({scrollTop: pos}, 1000);
+      return false;
+  });
+});
