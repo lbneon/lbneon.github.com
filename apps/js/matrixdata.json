@@ -1,0 +1,12 @@
+// JavaScript Document
+[
+{ "id":"title1" , "img":"images/title1.jpg" , "x":64*0/size , "y":64*0/size , "width":64*6/size , "height":64*4/size , "url":"#"  },
+{ "id":"title2" , "img":"images/title2.jpg" , "x":64*6/size , "y":64*0/size , "width":64*6/size , "height":64*4/size , "url":"#"  },
+{ "id":"github_neonlb" , "img":"images/github_neonlb.jpg" , "x":64*1/size , "y":64*5/size , "width":64*2/size , "height":64*2/size , "url":"https://github.com/lbneon"  },
+{ "id":"csdn_blog" , "img":"images/csdn_blog.jpg" , "x":64*1/size , "y":64*7/size , "width":64*2/size , "height":64*1/size , "url":"http://blog.csdn.net/neonlight"  },
+{ "id":"cnblogs_blog" , "img":"images/cnblogs_blog.jpg" , "x":64*1/size , "y":64*8/size , "width":64*2/size , "height":64*1/size , "url":"http://www.cnblogs.com/neonlight/"  },
+{ "id":"sina_blog" , "img":"images/sina_blog.jpg" , "x":64*1/size , "y":64*9/size , "width":64*2/size , "height":64*1/size , "url":"http://blog.sina.com.cn/neonlb"  },
+{ "id":"github_d3l" , "img":"images/github_d3l.jpg" , "x":64*3/size , "y":64*5/size , "width":64*2/size , "height":64*1/size , "url":"https://github.com/lbneon/D3L/wiki"  },
+{ "id":"xiaobai" , "img":"images/xiaobai.jpg" , "x":64*12/size , "y":64*5/size , "width":64*2/size , "height":64*2/size , "url":"#"  },
+{ "id":"magicbox" , "img":"images/magicbox.jpg" , "x":64*13/size , "y":64*9/size , "width":64*1/size , "height":64*1/size , "url":"magicbox.html"  }
+];
